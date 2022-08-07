@@ -57,3 +57,10 @@ Core 3:        +41.0°C
 ## Requirements
 
 You might have to install ```lm-sensors```
+
+## To Do
+
+I may or may not follow up on these.
+- Add colours
+- Warning notifications
+
