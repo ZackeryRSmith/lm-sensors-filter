@@ -5,6 +5,6 @@ if ! command -v sensors &> /dev/null; then
 fi
 
 while true; do
-	sensors | grep -Eo "Core [0-9]+:\s+\+[0-9]+\.[0-9]°\S+"  
+	sensors | grep -Eo "Core \d+:\s+\+\d+\.\d°\S+"  
 	sleep 1 && clear
 done
